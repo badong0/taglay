@@ -110,8 +110,8 @@
   border-radius: 12px;
   display: grid;
   place-items: center;
-  background: #e0f2fe;
-  color: #0284c7;
+  background:  #4b5563;
+  color: #e0f2fe;
   font-weight: 700;
 }
 
@@ -165,7 +165,7 @@
 .cta-banner {
   padding: 20px;
   border-radius: var(--radius);
-  background: linear-gradient(120deg, #0ea5e9, #0284c7);
+  background: linear-gradient(120deg, #4b5563, #9ca3af);
   color: #ffffff;
   display: grid;
   gap: 8px;

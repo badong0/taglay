@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
     const currentYear = new Date().getFullYear();
@@ -18,19 +18,19 @@ function Footer() {
                 </div>
                 <div className="footer-section">
                     <h4>Contact</h4>
-                    <p>Email: cyrusrobles@company.com</p>
+                    <p>Email: donatobrando02@gmail.com</p>
                     <p>Phone: 09**-***-****</p>
                 </div>
                 <div className="footer-section">
                     <h4>Follow Us</h4>
                     <div className="social-links">
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/brando-donato-2545441bb" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faTwitter} />
+                        <a href="https://github.com/badong0" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faGithub} />
                         </a>
-                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/brandoallendonato1/" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faFacebook} />
                         </a>
                     </div>
